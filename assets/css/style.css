@@ -61,6 +61,7 @@ p{
     float:center;
     color:#777777;
     background-color:white;
+    overflow:auto;
 }
 h2 {
     font-size:34px;
