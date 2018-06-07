@@ -25,7 +25,7 @@ header h1{
     font-size: 30px;
 }
 nav{
-    width: 350px;
+    width: 340px;
     float: right;
     margin-top: 35px;
     text-align: center;
@@ -45,13 +45,15 @@ nav ul li:last-child a{
     border-right:none;
     padding:none;
 }
+nav a:hover{
+    background: #4aaaa5;
+}
 p{
     font-size:16px;
     line-height:20px;
     margin-bottom:20px;
 }
 .maincontent{
-    clear:both;
     display: block;
     padding:10px;
     font-family: Arial, Helvetica, sans-serif;
@@ -99,9 +101,11 @@ button{
 }
 .portfolio-item{
     position: relative;
-    background-color: rgba(0,0,0,5);
+    background:rgba(0, 0, 0, .5 );
     margin-bottom:20px;
-    width:40%;
+    margin-top:20px;
+    width:45%;
+    float: left;
     height:250px;
 }
 .portfolio-item:nth-of-type(even){
@@ -111,25 +115,47 @@ button{
     background: #4aaaa5;
     color:#fff;
     text-align: center;
-    padding: 15% 0;
+    padding: 5% 0;
     width:100%;
     position: absolute;
     bottom:20px;
 }
-.portfolio-item #port1{
-    background: url("/assets/images/port1.jpg");
+#port1{
+    background-image: url("../images/port1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 #port2{
-    background: url("/assets/images/port2.jpg");
+    background-image: url("../images/port2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+#port3{
+    background-image: url("../images/port3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#port4{
+    background-image: url("../images/port4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#port5{
+    background-image: url("../images/port5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.clearfix{
+    display:block;
+    clear:both;
+    margin-bottom: 130px;
+}
 .footer {
     background-color: #777777;
     color:white;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
+    position: fixed;
+    bottom:0;
+    width:100%;
 }

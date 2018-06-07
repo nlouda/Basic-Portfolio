@@ -1,0 +1,16 @@
+*{
+    font-family: 'Indie Flower', cursive;
+}
+h1:active {
+    background-color: blueviolet;
+}
+p:hover{
+    background-color: green;
+}
+div{
+    background-color: red;
+    color:white;
+}
+div:focus{
+    background-color:blue;
+}
